@@ -1,7 +1,7 @@
 from torch.utils.data import Dataset, DataLoader
 from sklearn.datasets.samples_generator import make_blobs
 import numpy as np
-
+import torch 
 
 class SVMDataset(Dataset):
     def __init__(self, n_samples, cluster_std):
